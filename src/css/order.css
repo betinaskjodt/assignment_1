@@ -1,8 +1,9 @@
 .card-heading {
-    margin: var(--space-large);
-    padding-top: var(--space-large);
+    margin: var(--space-medium);
     display: flex;
     justify-content: center;
+
+    text-transform: uppercase;
 }
 
 form {

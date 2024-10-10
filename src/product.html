@@ -81,14 +81,20 @@
             <p class="Sproduct-metal-type">Metal: <b>gold plated</b></p>
     
             <form class="metal-type">
-                <label for="gold-plated">gold</label> 
-                <input class="square-radio-gold" type="radio" name="metal" id="gold-plated" value="gold" required>
-                    
-                <label class="new" for="silver-plated">silver</label>
-                <input class="square-radio-silver" type="radio" name="metal" id="silver-plated" value="silver" required>
-                    
-                <label class="new" for="quantity">quantity :</label>
-                <input type="number" min="1" max="10" value="1" name="quantity" >
+                <div class="product-buy-order">
+                    <label for="gold-plated">gold</label> 
+                    <input class="square-radio-gold" type="radio" name="metal" id="gold-plated" value="gold" required>
+                </div>
+                
+                <div class="product-buy-order">
+                    <label for="silver-plated">silver</label>
+                    <input class="square-radio-silver" type="radio" name="metal" id="silver-plated" value="silver" required>
+                </div>
+                
+                <div class="product-buy-order">
+                    <label for="quantity">quantity :</label>
+                    <input type="number" min="1" max="10" value="1" name="quantity" >  
+                </div>
             </form>
 
             <button class="cart-button">Add to cart<a href="./order.html"></a></button>
