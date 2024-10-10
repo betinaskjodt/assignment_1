@@ -51,8 +51,13 @@ legend {
     justify-content: space-evenly;
 }
 
+.address-checkbox {
+    margin-bottom: var(--space-medium);
+}
+
 textarea {
     margin-left: var(--space-small);
+    margin-bottom: var(--space-small);
     width: 50%;
  }
 
@@ -66,23 +71,25 @@ textarea {
 
 .checkout-payment select {
     margin-left: var(--space-small);
+    margin-bottom: var(--space-small);
     width: 25%;
  }
 
 .checkout-submit {
-    margin-left: 30%;
+    width: 50%;
     display: flex;
+    justify-content: center; 
     align-items: center;
  }
 
 .checkout-submit button {
-    width: 25%;
+    width: 50%;
     background-color: black;
     color: white;
     font-size: var(--space-medium);
     padding: var(--space-medium);
     margin: var(--space-medium);
- } 
+ }
 
 .terms-condition a {
     text-decoration: underline;
