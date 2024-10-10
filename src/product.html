@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Store product</title>
+</head>
+<body>
+    <header>
+        <section class="header__icons">
+            <nav class="header__menu">
+                <div class="header__menu-nav">
+                    <button class="header__menu-nav-button"><img class="header__menu-nav-svg" src="./assets/icons/menu.svg" alt="menu icon"></button>
+                </div>
+                <ul class="header__menu-list">
+                    <li class="header__menu-nav-items"><a href="#">new</a></ul>  
+                    <li class="header__menu-nav-items"><a href="#">Jewellery</a></li> 
+                    <li class="header__menu-nav-items"><a href="#">Sunglasses</a></li>
+                    <li class="header__menu-nav-items"><a href="#">Sale</a></li>
+                    <li class="header__menu-nav-items"><a href="#">Gift</a></li>
+                    <li class="header__menu-nav-items"><a href="#">Inspiration</a></li>
+                    <li class="header__menu-nav-items"><a href="#">About</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__icon-searchbar">
+                <button class="searchbar__button"><img src="./assets/icons/search.svg" alt="search icon" class="searchbar__icon"></button>
+                <input type="text" placeholder="Search" class="seachbar__input">
+            </div>
+
+            <div class="header__icon-return">
+                <a href="./product.html" class="header__icon-link"><img src="./assets/icons/return.svg" alt="return icon" class="header__icon-return">Return</a>
+            </div>
+
+            <div class="header__icon-user">
+                <a href="#" class="header__icon-link"><img src="./assets/icons/user.svg" alt="user icon" class="header__icon-user">Log in</a>
+            </div>
+
+            <div class="header__icon-wish-list">
+                <a href="#" class="header__icon-link"><img src="./assets/icons/heart.svg" alt="heart icon" class="header__icon-heart" >wish list</a>
+            </div>
+               
+            <div class="header__icon-cart">    
+                <a href="./order.html" class="header__icon-link"><img src="./assets/icons/cart.svg" alt="cart icon" class="header__icon-cart">cart</a>  
+            </div>
+        </section>  
+
+        <h1 class="header__title">PILGRIM</h1>
+
+        <nav class="header__navbar">
+            <ul class="navbar__list">
+                <a class="navbar__items" href="#">New</a>
+                <a class="navbar__items" href="#">Jewellery</a>
+                <a class="navbar__items" href="#">Sunglasses</a>
+                <a class="navbar__items" href="#">Sale</a>
+                <a class="navbar__items" href="#">Gift</a>
+                <a class="navbar__items" href="#">Inspiration</a>
+                <a class="navbar__items" href="#">About</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure class="images-gallery">
+            <img src="./assets/images/earings-1.webp" alt="earring">
+            <img src="./assets/images/earring-2.webp" alt="">
+            <img src="./assets/images/earrings-3.webp" alt="">
+            <video src="./assets/video/prilgrim.video.earrings.mp4" type="video" controls></video>
+        </figure>
+        
+
+        <div class="product-buy">
+            <h2 class="product-heading">TRUST half hoop earrings gold-plated</h2>
+            <p class="value">£ 34.99</p>
+            <p class="tax">Tax included.</p>
+            <p class="Sproduct-metal-type">Metal: <b>gold plated</b></p>
+    
+            <form class="metal-type">
+                <label for="gold-plated">gold</label> 
+                <input class="square-radio-gold" type="radio" name="metal" id="gold-plated" value="gold" required>
+                    
+                <label class="new" for="silver-plated">silver</label>
+                <input class="square-radio-silver" type="radio" name="metal" id="silver-plated" value="silver" required>
+                    
+                <label class="new" for="quantity">quantity :</label>
+                <input type="number" min="1" max="10" value="1" name="quantity" >
+            </form>
+
+            <button class="cart-button">Add to cart<a href="./order.html"></a></button>
+
+            <button class="store-button">Find in store<a href="#"></a></button>
+        </div>
+
+            <div class="product-extra-detail-container">
+                <div class="shipping-cost">
+                    <img src="./assets/icons/package.svg" alt="">
+                    <p>Free shipping on orders above GBP 50</p>
+                </div>
+
+                <div class="shipping-time-container">
+                    <img src="./assets/icons/shipping.svg" alt="">
+                    <p>4-7 days delivery to United Kingdom.</p>
+                </div>
+
+                <div class="return-container">
+                    <img src="./assets/icons/return.svg" alt="">
+                    <p>90 days return</p>
+                </div>
+
+                <ul class="prouct-more-container">
+                    <li>Gold-plated oval half hoops</li>
+                    <li>Boho-luxe details for creative styling</li>
+                    <li>Measures 55mm in length</li>
+                    <li>Semi-precious stones and earthy vibes</li>
+                    <li>Beautiful natural colour tones</li>
+                </ul>  
+            </div>
+
+            <div class="dropdown-product-details">
+                <div class="dropdown">
+                    <img src="./assets/icons/description.svg" alt="">
+                    <span> Description </span>
+                    <div class="dropdown-content">
+                        <p>Trust your creativity and add a touch of autumn beauty to your look with earrings from Pilgrim's TRUST collection. Gold-plated oval half hoops, studded with semi-precious stones in beautiful deep autumn colours. The earrings' organic details and handcrafted feel exude a lux boho vibe, perfect for styling your inner free spirit.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="dropdown">
+                    <img src="./assets/icons/size.svg" alt="">
+                    <span>Size</span>
+                    <div class=dropdown-content>
+                        <p>Measures 55mm in length</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <img src="./assets/icons/tag.svg" alt="">
+                    <span>Product info</span>
+                    <div class="dropdown-content">
+                        <dl>
+                        <dt>Product ID:</dt>
+                        <dd>122432813</dd>
+                        <dt>Retail Category:</dt>
+                        <dd>Earrings</dd>
+                        <dt>Subcategory:</dt>
+                        <dd>Dangle & Drop earrings</dd>
+                        <dt>Metal:</dt>
+                        <dd>Gold Plated</dd>
+                        <dt>Color:</dt>
+                        <dd>Multi</dd>
+                        <dt>Series:</dt>
+                        <dd>Trust</dd>
+                        <dt>Lock:</dt>
+                        <dd>Hook</dd>
+                        <dt>Stone Name:</dt>
+                        <dd>Mix</dd>
+                    </dl>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <img src="./assets/icons/help.svg" alt="">
+                    <span>Material</span>
+                    <div class="dropdown-content">
+                        <p>25% Brass, 10% Zinc, 55% Gemstone, 9% Glass, 1% Plating</p>
+                    </div>
+                    
+                </div>
+
+                <div class="dropdown">
+                    <img src="./assets/icons/share.svg" alt="">
+                    <a href="#">Share</a>
+                </div>
+            </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            
+            <h3>CONTACT US</h3>
+            <p>Open hours:</p>
+            <p>Monday - Friday: time:08:00-20:00</p>
+            <p>Saturday - Sunday: time: 09:00-15:00</p>
+            <p>Danish holidays: <a href="#">closed</a></p>
+            <p>Phone: <a href="tel:+4563333333">+45 63 33 33 33</a></p>
+            <p>Email <a href="mailto:webshop@pilgrim.net">webshop@pilgrim.net</a></p>
+        </div>
+
+        <div class="footer__container">
+            <h3>CUSTOMER SERVICE</h3>
+            <ul>
+                <li><a href="#">customer service</a></li>
+                <li><a href="#">Care guide</a></li>
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Returns & Exchange</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Refuond policy</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul> 
+        </div>
+
+        <div  class="footer__container">
+            <h3>COMPANY</h3>
+            <p><a href="#">About Pilgrim</a></p>
+            <p><a href="#">CSR</a></p>
+            <p><a href="#">Jobs</a></p>
+            <p><a href="#">Stores</a></p>
+            <p><a href="#">Piercing in the ear</a></p>
+            <p><a href="#">Press</a></p>
+            <p><a href="#">B2B</a></p>
+        </div >
+
+        <div class="footer__container">
+            <h3>JOIN OUR JOURNEY</h3>
+            <p><a href="#">Club pilgrim</a></p>
+            <p><a href="#">Shop instragram</a></p>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">TikTok</a></p>
+            <p><a href="#">Spotify</a></p>
+        </div >
+    </footer>  
+</body>
+</html>

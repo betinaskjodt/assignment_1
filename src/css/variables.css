@@ -1,0 +1,28 @@
+@font-face { 
+    font-family:Bitter-Regular;
+    src: url("../assets/fonts/Bitter-Regular.ttf");
+}
+@font-face {
+    font-family: Bitter-MediumItalic;
+    src: url("../assets/fonts/Bitter-MediumItalic.ttf");
+}
+@font-face {
+    font-family: Bitter-ExtraLight;
+    src: url("../assets/fonts/Bitter-ExtraLight.ttf");
+}
+
+:root {
+
+    --primary-font-family: Bitter-Regular;
+    --secondary-font-family: Bitter-ExtraLight;
+    --third-font-family: Bitter-MediumItalic;
+
+    --space-small: 0.5rem;
+    --space-medium: 1rem;
+    --space-large: 2rem;
+
+    --primary-background-color: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+    --primary-hover-color: rgb(32, 32, 32);
+    --secondary-hover-color: rgb(64, 64, 64);
+}
