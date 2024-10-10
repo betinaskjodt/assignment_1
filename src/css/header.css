@@ -68,6 +68,10 @@ body {
     justify-content: center; 
 }
 
+.header__icon {
+    margin-bottom: -5px;
+}
+
 h1 {
     margin: var(--space-large);
     display: flex;
