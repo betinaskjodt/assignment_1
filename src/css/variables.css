@@ -11,11 +11,17 @@
     src: url("../assets/fonts/Bitter-ExtraLight.ttf");
 }
 
+@font-face {
+    font-family: Bitter-Bold;
+    src: url(../assets/fonts/Bitter-Bold.ttf);
+}
+
 :root {
 
     --primary-font-family: Bitter-Regular;
     --secondary-font-family: Bitter-ExtraLight;
     --third-font-family: Bitter-MediumItalic;
+    --fourth-font-family: Bitter-Bold;
 
     --space-small: 0.5rem;
     --space-medium: 1rem;

@@ -60,6 +60,7 @@ textarea {
     margin-left: var(--space-small);
     margin-bottom: var(--space-small);
     width: 50%;
+    resize: none;
  }
 
 .checkout-payment {
