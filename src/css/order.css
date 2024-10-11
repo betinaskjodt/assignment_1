@@ -1,3 +1,12 @@
+body {
+    width: 100%;
+    padding: var(--space-medium);
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    font-family: var(--primary-font-family);
+}
+
 .card-heading {
     margin: var(--space-medium);
     display: flex;

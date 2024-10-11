@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    height: 100vh;   
+}
+
+main {
+    background-image: url(../assets/images/pilgrim_front_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-size: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: var(--primary-font-family);
+    font-size: 20rem;
+}
+
+h2 a:hover {
+    text-decoration: none;
+}
+
+
+
