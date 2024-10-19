@@ -1,7 +1,7 @@
 .header__icons {
     display: flex;
     flex-wrap: wrap;
-    height: 30px;
+    padding: var(--space-large);
 }
 
 .header__menu{
@@ -11,9 +11,20 @@
     align-items: center;
 }
 
-/* .header__menu-nav-items {
+.header__menu-nav-items {
     list-style: none;
-}  */
+    display: none;
+} 
+
+.seachbar__input {
+    border: none;
+    background-color: var(--primary-background-color);
+}
+
+.seachbar__input:focus {
+    all: unset;
+    border-bottom: 1px solid black;
+}
 
 .header__menu-nav-button {
     border-style: none;
@@ -36,10 +47,6 @@
     display: flex;
     justify-content: center;
 }
-
-/*.header__return-link {
-     move text up to align to icon?? 
-}*/
 
 .header__user {
     flex-grow: 1;
@@ -69,7 +76,8 @@
     justify-content: center;
     font-size: var(--space-large);
     letter-spacing: var(--space-medium);
-    font-style: var(--third-font-family)
+    font-style: var(--third-font-family);
+    text-transform: uppercase;
 }
 
 .header__navbar {
