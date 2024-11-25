@@ -12,187 +12,163 @@
 </head>
 <body>
     <header>
-        <section class="header__icons">
-            <nav class="header__menu">
-                <div class="header__menu-nav">
-                    <button class="header__menu-nav-button"><img class="header__menu-nav-svg" src="./assets/icons/menu.svg" alt="menu icon"></button>
-                </div>
-                <ul class="header__menu-list">
-                    <li class="header__menu-nav-items"><a href="#">new</a></ul>  
-                    <li class="header__menu-nav-items"><a href="#">Jewellery</a></li> 
-                    <li class="header__menu-nav-items"><a href="#">Sunglasses</a></li>
-                    <li class="header__menu-nav-items"><a href="#">Sale</a></li>
-                    <li class="header__menu-nav-items"><a href="#">Gift</a></li>
-                    <li class="header__menu-nav-items"><a href="#">Inspiration</a></li>
-                    <li class="header__menu-nav-items"><a href="#">About</a></li>
-                </ul>
-            </nav>
-
-            <div class="header__searchbar">
-                <button class="header__searchbar-button"><img src="./assets/icons/search.svg" alt="search icon" class="searchbar__icon"></button>
-                <input type="text" placeholder="Search" class="seachbar__input">
+        <nav class="navbar">
+          <div class="navbar__icon-options">
+            <div class="navbar__menu-btn-container">
+              <button class="navbar__menu-btn">
+                <img
+                  class="navbar__menu-btn-icon"
+                  src="./assets/icons/menu.svg"
+                  alt="menu icon"
+                />
+              </button>
             </div>
-
-            <div class="header__return">
-                <a href="../index.html" class="header__return-link"><img src="./assets/icons/return.svg" alt="return icon" class="header__icon">Return</a>
+  
+            <div class="navbar__searchbar-container">
+              <label for="searchbar" class="navbar__searchbar-label">
+                <button class="navbar__searchbar-btn">
+                  <img
+                    src="./assets/icons/search.svg"
+                    alt="search icon for search input"
+                    class="navbar__searchbar-icon"
+                  /></button
+              ></label>
+  
+              <input
+                type="search"
+                name="seachbar"
+                id="searchbar-input"
+                placeholder="search"
+                class="navbar__searchbar-input"
+              />
             </div>
-
-            <div class="header__user">
-                <a href="#" class="header__user-link"><img src="./assets/icons/user.svg" alt="user icon" class="header__icon">Log in</a>
+  
+            <div class="navbar__return-container">
+              <a href="./product.html" class="navbar__return-link"
+                ><img
+                  src="./assets/icons/return.svg"
+                  alt="return icon for return link"
+                  class="navbar__return-icon"
+                />Return</a
+              >
             </div>
-
-            <div class="header__wish-list">
-                <a href="#" class="header__wish-list-link"><img src="./assets/icons/heart.svg" alt="heart icon" class="header__icon" >wish list</a>
+  
+            <div class="navbar__login-container">
+              <a href="#" class="navbar__login-link"
+                ><img
+                  src="./assets/icons/user.svg"
+                  alt="user icon for login"
+                  class="navbar__login-icon"
+                />Log in</a
+              >
             </div>
-               
-            <div class="header__cart">    
-                <a href="./order.html" class="header__cart-link"><img src="./assets/icons/cart.svg" alt="cart icon" class="header__icon">cart</a>  
+  
+            <div class="navbar__wish-list-container">
+              <a href="#" class="navbar__wish-list-link"
+                ><img
+                  src="./assets/icons/heart.svg"
+                  alt="heart icon for wishlist link"
+                  class="navbar__wish-list-icon"
+                />wish list</a
+              >
             </div>
-        </section>  
-
-        <h1 class="header__title">pilgrim</h1>
-
-        <nav class="header__navbar">
+  
+            <div class="navbar__cart-container">
+              <a href="./order.html" class="navbar__cart-link"
+                ><img
+                  src="./assets/icons/cart.svg"
+                  alt="cart icon for cart link"
+                  class="navbar__cart-icon"
+                />cart</a
+              >
+            </div>
+          </div>
+  
+          </div>
+          <div class="navbar__tilte-container">
+            <h1 class="navbar__title">PILGRIM</h1>
+          </div>
+  
+          <div class="navbar__menu-links-container">
             <ul class="navbar__list">
-                <a class="navbar__items" href="#">New</a>
-                <a class="navbar__items" href="#">Jewellery</a>
-                <a class="navbar__items" href="#">Sunglasses</a>
-                <a class="navbar__items" href="#">Sale</a>
-                <a class="navbar__items" href="#">Gift</a>
-                <a class="navbar__items" href="#">Inspiration</a>
-                <a class="navbar__items" href="#">About</a>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">New</a>
+              </li>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">Jewellery</a>
+              </li>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">Sunglasses</a>
+              </li>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">Sale</a>
+              </li>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">Gift</a>
+              </li>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">Inspiration</a>
+              </li>
+              <li class="navbar-list-item">
+                <a class="navbar__list-link" href="#">About</a>
+              </li>
             </ul>
+          </div>
         </nav>
     </header>
 
     <main>
-        <figure class="images-gallery">
-            <img src="./assets/images/earings-1.webp" alt="earring">
-            <img src="./assets/images/earring-2.webp" alt="">
-            <img src="./assets/images/earrings-3.webp" alt="">
-            <video src="./assets/video/prilgrim.video.earrings.mp4" type="video" controls></video>
+      <div class="product__container">
+        <figure class="product__gallery-container">
+          <img class="product__image" src="./assets/images/earings-1.webp" alt="image of earring product">
+          <img class="product__image" src="./assets/images/earring-2.webp" alt="image of model wearing product">
+          <img class="product__image" src="./assets/images/earrings-3.webp" alt="image of model wearing product sideprofile">
+          <video class="product__video" src="./assets/video/prilgrim.video.earrings.mp4" type="video" controls></video>
         </figure>
-        
 
-        <div class="product-buy">
-            <h2 class="product-heading">TRUST half hoop earrings gold-plated</h2>
-            <p class="value">£ 34.99</p>
-            <p class="tax">Tax included.</p>
-            <p class="Sproduct-metal-type">Metal: <b>gold plated</b></p>
-    
-            <form class="metal-type">
-                <div class="product-buy-order">
-                    <label for="gold-plated">gold</label> 
-                    <input class="square-radio-gold" type="radio" name="metal" id="gold-plated" value="gold" required>
-                </div>
-                
-                <div class="product-buy-order">
-                    <label for="silver-plated">silver</label>
-                    <input class="square-radio-silver" type="radio" name="metal" id="silver-plated" value="silver" required>
-                </div>
-                
-                <div class="product-buy-order">
-                    <label for="quantity">quantity :</label>
-                    <input type="number" min="1" max="10" value="1" name="quantity" >  
-                </div>
-            </form>
+        <div class="product__detail-container">
+          <h2 class="product__detail-title">TRUST half hoop earrings gold-plated</h2>
+          <p class="product__detail-description">Trust your creativity and add a touch of autumn beauty to your look with earrings from Pilgrim's TRUST collection. Gold-plated oval half hoops, studded with semi-precious stones in beautiful deep autumn colours. The earrings' organic details and handcrafted feel exude a lux boho vibe, perfect for styling your inner free spirit.</p>
 
-            <button class="cart-button">Add to cart<a href="./css/order.css"></a></button>
+          <ul class="product__detail-list">
+            <li class="product__list-description">£ 34.99 <i>Tax included.</i></li>
+            <li class="product__list-description">Gold-plated oval half hoops</li>
+            <li class="product__list-description">Boho-luxe details for creative styling</li>
+            <li class="product__list-description">Measures 55mm in length</li>
+            <li class="product__list-description">Semi-precious stones and earthy vibes</li>
+            <li class="product__list-description">Beautiful natural colour tones</li>
+          </ul>
 
-            <button class="store-button">Find in store<a href="#"></a></button>
+          <form action="" class="product__product-options">
+            <p class="Sproduct-metal-text">Metal: <b>gold plated</b></p>
+            <div>
+              <div class="product__option-gold-container">
+                <label for="gold-plated">gold</label> 
+                <input class="product__option-metal" type="radio" name="metal" id="gold-plated" value="gold" required>
+              </div>
+  
+              <div class="product__option-silver-container">
+                <label for="silver-plated">silver</label>
+                <input class="product__option-metal" type="radio" name="metal" id="silver-plated" value="silver" required>
+              </div>
+  
+              <div class="product__option-quanity-container">
+                <label for="quantity">quantity :</label>
+                <input class="product__option-quanity" type="number" min="1" max="10" value="1" name="quantity" >  
+              </div>
+            </div>
+          </form>  
+          
+          <div class="product__btn-container">
+            <a class="add-cart-button-link" href="#"><button class="add-cart-button" >Add to cart</button></a>
+            <a class="cart-button-link" href="./order.html"><button class="cart-button">Go to cart</button></a>
+          </div>
         </div>
-
-            <div class="product-extra-detail-container">
-
-                <ul class="prouct-more-details">
-                    <li>Gold-plated oval half hoops</li>
-                    <li>Boho-luxe details for creative styling</li>
-                    <li>Measures 55mm in length</li>
-                    <li>Semi-precious stones and earthy vibes</li>
-                    <li>Beautiful natural colour tones</li>
-                </ul>  
-
-                <div class="shipping-cost">
-                    <img src="./assets/icons/package.svg" alt="">
-                    <a href="#">Free shipping on orders above GBP 50</a>
-                </div>
-
-                <div class="shipping-time-container">
-                    <img src="./assets/icons/shipping.svg" alt="">
-                    <a href="#">4-7 days delivery to United Kingdom.</a>
-                    <p></p>
-                </div>
-
-                <div class="return-container">
-                    <img src="./assets/icons/return.svg" alt="">
-                    <a href="#">90 days return</a>
-                </div>
-            </div>
-
-            <div class="dropdown-product-details">
-
-                <div class="dropdown">
-                    <img src="./assets/icons/tag.svg" alt="">
-                    <span>Product info</span>
-                    <div class="dropdown-content">
-                        <dl>
-                            <dt>Product ID:</dt>
-                            <dd>122432813</dd>
-                            <dt>Retail Category:</dt>
-                            <dd>Earrings</dd>
-                            <dt>Subcategory:</dt>
-                            <dd>Dangle & Drop earrings</dd>
-                            <dt>Metal:</dt>
-                            <dd>Gold Plated</dd>
-                            <dt>Color:</dt>
-                            <dd>Multi</dd>
-                            <dt>Series:</dt>
-                            <dd>Trust</dd>
-                            <dt>Lock:</dt>
-                            <dd>Hook</dd>
-                            <dt>Stone Name:</dt>
-                            <dd>Mix</dd>
-                        </dl>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <img src="./assets/icons/description.svg" alt="">
-                    <span> Description </span>
-                    <div class="dropdown-content">
-                        <p>Trust your creativity and add a touch of autumn beauty to your look with earrings from Pilgrim's TRUST collection. Gold-plated oval half hoops, studded with semi-precious stones in beautiful deep autumn colours. The earrings' organic details and handcrafted feel exude a lux boho vibe, perfect for styling your inner free spirit.</p>
-                    </div>
-                    
-                </div>
-
-                <div class="dropdown">
-                    <img src="./assets/icons/size.svg" alt="">
-                    <span>Size</span>
-                    <div class=dropdown-content>
-                        <p>Measures 55mm in length</p>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <img src="./assets/icons/help.svg" alt="">
-                    <span>Material</span>
-                    <div class="dropdown-content">
-                        <p>25% Brass, 10% Zinc, 55% Gemstone, 9% Glass, 1% Plating</p>
-                    </div>
-                    
-                </div>
-
-                <div class="dropdown">
-                    <img src="./assets/icons/share.svg" alt="">
-                    <a href="#">Share</a>
-                </div>
-            </div>
-        
+      </div>
     </main>
-
+      
     <footer>
         <div class="footer__container">
-            
             <h3>CONTACT US</h3>
             <p>Open hours:</p>
             <p>Monday - Friday: time:08:00-20:00</p>

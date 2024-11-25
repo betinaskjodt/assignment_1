@@ -1,9 +1,9 @@
 footer {
-    margin-top: var(--space-large);
-    padding: var(--space-medium);
-    border-top: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+  /* margin-top: var(--space-large); */
+  padding: var(--space-medium);
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }

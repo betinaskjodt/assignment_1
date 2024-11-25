@@ -1,108 +1,125 @@
 body {
-    width: 100%;
-    padding: var(--space-medium);
-    background: #ECE9E6; 
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-    font-family: var(--primary-font-family);
+  width: 100%;
+  padding: var(--space-medium);
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+  font-family: var(--primary-font-family);
 }
 
-.card-heading {
-    margin: var(--space-medium);
-    display: flex;
-    justify-content: center;
+.card {
+  margin: var(--space-medium);
+  display: flex;
+  justify-content: center;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-medium);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-medium);
 }
 
-legend { 
-    font-size: large;
+legend {
+  font-size: large;
+  padding-bottom: var(--space-medium);
 }
 
- label {
-    margin-left: var(--space-small);
+label {
+  margin-left: var(--space-medium);
+}
+.card__gold {
+  padding-bottom: 50px;
 }
 
-.textbox{
-    width: 25%; 
-    margin-left: var(--space-medium);
-    margin-bottom: var(--space-medium);
-    
+.card__textbox {
+  width: 40%;
+  margin-left: var(--space-medium);
+  margin-bottom: var(--space-medium);
 }
 
-.checkout-product {
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: var(--space-small);
+.card__radio-s-btn {
+  margin-left: 10px;
 }
 
-.checkout-contact {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: var(--space-small);
+.card__radio-g-btn {
+  margin-left: 17px;
 }
 
-.checkout-address {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.card__checkout-product {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: var(--space-small);
 }
 
-.address-checkbox {
-    margin-bottom: var(--space-medium);
+.card__checkout-contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: var(--space-small);
+}
+
+.card__checkout-address {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card__address-checkbox {
+  margin-bottom: var(--space-medium);
 }
 
 textarea {
-    margin-left: var(--space-small);
-    margin-bottom: var(--space-small);
-    width: 50%;
-    resize: none;
- }
+  margin-left: var(--space-medium);
+  margin-bottom: var(--space-small);
+  width: 50%;
+  resize: none;
+}
 
-.checkout-payment {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: var(--space-small);
- }
+.card__checkout-payment {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: var(--space-small);
+}
 
-.checkout-payment select {
-    margin-left: var(--space-small);
-    margin-bottom: var(--space-small);
-    width: 25%;
- }
+.card__checkout-payment select {
+  margin-left: var(--space-medium);
+  margin-bottom: var(--space-medium);
+  width: 40%;
+}
 
-.checkout-submit {
-    width: 50%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
- }
+.card__checkout-submit {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.checkout-submit button {
-    width: 50%;
-    background-color: black;
-    color: white;
-    font-size: var(--space-medium);
-    padding: var(--space-medium);
-    margin: var(--space-medium);
- }
+.card__checkout-submit button {
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-size: var(--space-medium);
+  padding: var(--space-medium);
+  margin: var(--space-medium);
+}
 
-.terms-condition a {
-    text-decoration: underline;
+.card__checkout-submit button:hover {
+  transform: scale(0.98);
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+.card__terms-condition a {
+  text-decoration: underline;
 }

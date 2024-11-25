@@ -1,33 +1,41 @@
-@font-face { 
-    font-family:Bitter-Regular;
-    src: url("../assets/fonts/Bitter-Regular.ttf");
+@font-face {
+  font-family: Bitter-Regular;
+  src: url(../assets/fonts/Bitter-Regular.ttf);
 }
 @font-face {
-    font-family: Bitter-MediumItalic;
-    src: url("../assets/fonts/Bitter-MediumItalic.ttf");
+  font-family: Bitter-MediumItalic;
+  src: url(../assets/fonts/Bitter-MediumItalic.ttf);
 }
 @font-face {
-    font-family: Bitter-ExtraLight;
-    src: url("../assets/fonts/Bitter-ExtraLight.ttf");
+  font-family: Bitter-ExtraLight;
+  src: url(../assets/fonts/Bitter-ExtraLight.ttf);
 }
 
 @font-face {
-    font-family: Bitter-Bold;
-    src: url(../assets/fonts/Bitter-Bold.ttf);
+  font-family: Bitter-Bold;
+  src: url(../assets/fonts/Bitter-Bold.ttf);
 }
 
 :root {
-    --primary-font-family: Bitter-Regular;
-    --secondary-font-family: Bitter-ExtraLight;
-    --third-font-family: Bitter-MediumItalic;
-    --fourth-font-family: Bitter-Bold;
+  --primary-font-family: Bitter-Regular;
+  --secondary-font-family: Bitter-ExtraLight;
+  --third-font-family: Bitter-MediumItalic;
+  --fourth-font-family: Bitter-Bold;
 
-    --space-small: 0.5rem;
-    --space-medium: 1rem;
-    --space-large: 2rem;
+  --space-small: 0.95rem;
+  --space-medium: 1rem;
+  --space-large: 2rem;
+  --space-x-large: 3rem;
+  --space-2x-large: 9rem;
 
-    --primary-background-color: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  --font-size-xsmall: 0.5rem;
+  --font-size-small: 1.3rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-xlarge: 2.5rem;
 
-    --primary-hover-color: rgb(32, 32, 32);
-    --secondary-hover-color: rgb(64, 64, 64);
+  --primary-background-color: linear-gradient(to right, #ffffff, #ece9e6);
+
+  --primary-hover-color: rgb(32, 32, 32);
+  --secondary-hover-color: rgb(46, 46, 46);
 }

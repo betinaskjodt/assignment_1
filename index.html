@@ -1,75 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>front cover</title>
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/variables.css">
-    <link rel="stylesheet" href="./src/css/header.css">
-    <link rel="stylesheet" href="./src/css/front.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/front.css" />
+  </head>
+  <body>
     <header>
-        <section class="header__icons">
-            <nav class="header__menu">
-                <div class="header__menu-nav">
-                    <button class="header__menu-nav-button"><img class="header__menu-nav-svg" src="./src/assets/icons/menu.svg" alt="menu icon"></button>
-                </div>
-                <ul class="header__menu-list">
-                    <li class="header__menu-nav-items"><a href="#">new</a></ul>  
-                    <li class="header__menu-nav-items"><a href="#">Jewellery</a></li> 
-                    <li class="header__menu-nav-items"><a href="#">Sunglasses</a></li>
-                    <li class="header__menu-nav-items"><a href="#">Sale</a></li>
-                    <li class="header__menu-nav-items"><a href="#">Gift</a></li>
-                    <li class="header__menu-nav-items"><a href="#">Inspiration</a></li>
-                    <li class="header__menu-nav-items"><a href="#">About</a></li>
-                </ul>
-            </nav>
+      <nav class="navbar">
+        <div class="navbar__icon-options">
+          <div class="navbar__menu-btn-container">
+            <button class="navbar__menu-btn">
+              <img
+                class="navbar__menu-btn-icon"
+                src="./src/assets/icons/menu.svg"
+                alt="menu icon"
+              />
+            </button>
+          </div>
 
-            <div class="header__searchbar">
-                <button class="header__searchbar-button"><img src="./src/assets/icons/search.svg" alt="search icon" class="searchbar__icon"></button>
-                <input type="text" placeholder="Search" class="seachbar__input">
-            </div>
+          <div class="navbar__searchbar-container">
+            <label for="searchbar" class="navbar__searchbar-label">
+              <button class="navbar__searchbar-btn">
+                <img
+                  src="./src/assets/icons/search.svg"
+                  alt="search icon for search input"
+                  class="navbar__searchbar-icon"
+                /></button
+            ></label>
 
-            <div class="header__return">
-                <a href="./product.html" class="header__return-link"><img src="./src/assets/icons/return.svg" alt="return icon" class="header__icon">Return</a>
-            </div>
+            <input
+              type="search"
+              name="seachbar"
+              id="searchbar-input"
+              placeholder="search"
+              class="navbar__searchbar-input"
+            />
+          </div>
 
-            <div class="header__user">
-                <a href="#" class="header__user-link"><img src="./src/assets/icons/user.svg" alt="user icon" class="header__icon">Log in</a>
-            </div>
+          <div class="navbar__return-container">
+            <a href="./product.html" class="navbar__return-link"
+              ><img
+                src="./src/assets/icons/return.svg"
+                alt="return icon for return link"
+                class="navbar__return-icon"
+              />Return</a
+            >
+          </div>
 
-            <div class="header__wish-list">
-                <a href="#" class="header__wish-list-link"><img src="./src/assets/icons/heart.svg" alt="heart icon" class="header__icon" >wish list</a>
-            </div>
-               
-            <div class="header__cart">    
-                <a href="./src/order.html" class="header__cart-link"><img src="./src/assets/icons/cart.svg" alt="cart icon" class="header__icon">cart</a>  
-            </div>
-        </section>  
+          <div class="navbar__login-container">
+            <a href="#" class="navbar__login-link"
+              ><img
+                src="./src/assets/icons/user.svg"
+                alt="user icon for login"
+                class="navbar__login-icon"
+              />Log in</a
+            >
+          </div>
 
-        <h1 class="header__title">PILGRIM</h1>
+          <div class="navbar__wish-list-container">
+            <a href="#" class="navbar__wish-list-link"
+              ><img
+                src="./src/assets/icons/heart.svg"
+                alt="heart icon for wishlist link"
+                class="navbar__wish-list-icon"
+              />wish list</a
+            >
+          </div>
 
-        <nav class="header__navbar">
-            <ul class="navbar__list">
-                <a class="navbar__items" href="#">New</a>
-                <a class="navbar__items" href="#">Jewellery</a>
-                <a class="navbar__items" href="#">Sunglasses</a>
-                <a class="navbar__items" href="#">Sale</a>
-                <a class="navbar__items" href="#">Gift</a>
-                <a class="navbar__items" href="#">Inspiration</a>
-                <a class="navbar__items" href="#">About</a>
-            </ul>
-        </nav>
+          <div class="navbar__cart-container">
+            <a href="./src/order.html" class="navbar__cart-link"
+              ><img
+                src="./src/assets/icons/cart.svg"
+                alt="cart icon for cart link"
+                class="navbar__cart-icon"
+              />cart</a
+            >
+          </div>
+        </div>
+
+        </div>
+        <div class="navbar__tilte-container">
+          <h1 class="navbar__title">PILGRIM</h1>
+        </div>
+
+        <div class="navbar__menu-links-container">
+          <ul class="navbar__list">
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">New</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Jewellery</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Sunglasses</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Sale</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Gift</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Inspiration</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <main>
-        <h2>welcome</h2>
-        <p><a href="./src/product.html">click to go to product</a></p>
+    <main class="home">
+      <h2 class="home__title">welcome</h2>
+      <a class="home__link-to-product" href="./src/product.html">click to go to product</a>
     </main>
-
-    
-    
-</body>
+  </body>
 </html>
