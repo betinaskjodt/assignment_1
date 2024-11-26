@@ -1,216 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/product.css">
-    <link rel="stylesheet" href="./css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <title>Store product</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-          <div class="navbar__icon-options">
-            <div class="navbar__menu-btn-container">
-              <button class="navbar__menu-btn">
-                <img
-                  class="navbar__menu-btn-icon"
-                  src="./assets/icons/menu.svg"
-                  alt="menu icon"
-                />
-              </button>
-            </div>
-  
-            <div class="navbar__searchbar-container">
-              <label for="searchbar" class="navbar__searchbar-label">
-                <button class="navbar__searchbar-btn">
-                  <img
-                    src="./assets/icons/search.svg"
-                    alt="search icon for search input"
-                    class="navbar__searchbar-icon"
-                  /></button
-              ></label>
-  
-              <input
-                type="search"
-                name="seachbar"
-                id="searchbar-input"
-                placeholder="search"
-                class="navbar__searchbar-input"
-              />
-            </div>
-  
-            <div class="navbar__return-container">
-              <a href="./product.html" class="navbar__return-link"
-                ><img
-                  src="./assets/icons/return.svg"
-                  alt="return icon for return link"
-                  class="navbar__return-icon"
-                />Return</a
-              >
-            </div>
-  
-            <div class="navbar__login-container">
-              <a href="#" class="navbar__login-link"
-                ><img
-                  src="./assets/icons/user.svg"
-                  alt="user icon for login"
-                  class="navbar__login-icon"
-                />Log in</a
-              >
-            </div>
-  
-            <div class="navbar__wish-list-container">
-              <a href="#" class="navbar__wish-list-link"
-                ><img
-                  src="./assets/icons/heart.svg"
-                  alt="heart icon for wishlist link"
-                  class="navbar__wish-list-icon"
-                />wish list</a
-              >
-            </div>
-  
-            <div class="navbar__cart-container">
-              <a href="./order.html" class="navbar__cart-link"
-                ><img
-                  src="./assets/icons/cart.svg"
-                  alt="cart icon for cart link"
-                  class="navbar__cart-icon"
-                />cart</a
-              >
-            </div>
-          </div>
-  
-          </div>
-          <div class="navbar__tilte-container">
-            <h1 class="navbar__title">PILGRIM</h1>
-          </div>
-  
-          <div class="navbar__menu-links-container">
-            <ul class="navbar__list">
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">New</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Jewellery</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Sunglasses</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Sale</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Gift</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Inspiration</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">About</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-    </header>
+  </head>
 
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__icon-options">
+          <div class="navbar__menu-btn-container">
+            <button class="navbar__menu-btn">
+              <img
+                class="navbar__menu-btn-icon"
+                src="./assets/icons/menu.svg"
+                alt="menu icon"
+              />
+            </button>
+          </div>
+          <div class="navbar__searchbar-container">
+            <label for="searchbar" class="navbar__searchbar-label">
+              <button class="navbar__searchbar-btn">
+                <img
+                  src="./assets/icons/search.svg"
+                  alt="search icon for search input"
+                  class="navbar__searchbar-icon"
+                /></button
+            ></label>
+            <input
+              type="search"
+              name="seachbar"
+              id="searchbar-input"
+              placeholder="search"
+              class="navbar__searchbar-input"
+            />
+          </div>
+          <div class="navbar__return-container">
+            <a href="./product.html" class="navbar__return-link"
+              ><img
+                src="./assets/icons/return.svg"
+                alt="return icon for return link"
+                class="navbar__return-icon"
+              />Return</a
+            >
+          </div>
+          <div class="navbar__login-container">
+            <a href="#" class="navbar__login-link"
+              ><img
+                src="./assets/icons/user.svg"
+                alt="user icon for login"
+                class="navbar__login-icon"
+              />Log in</a
+            >
+          </div>
+          <div class="navbar__wish-list-container">
+            <a href="#" class="navbar__wish-list-link"
+              ><img
+                src="./assets/icons/heart.svg"
+                alt="heart icon for wishlist link"
+                class="navbar__wish-list-icon"
+              />wish list</a
+            >
+          </div>
+          <div class="navbar__cart-container">
+            <a href="./order.html" class="navbar__cart-link"
+              ><img
+                src="./assets/icons/cart.svg"
+                alt="cart icon for cart link"
+                class="navbar__cart-icon"
+              />cart</a
+            >
+          </div>
+        </div>
+        <div class="navbar__tilte-container">
+          <h1 class="navbar__title">PILGRIM</h1>
+        </div>
+        <div class="navbar__menu-links-container">
+          <ul class="navbar__list">
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">New</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Jewellery</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Sunglasses</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Sale</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Gift</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Inspiration</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
       <div class="product__container">
         <figure class="product__gallery-container">
-          <img class="product__image" src="./assets/images/earings-1.webp" alt="image of earring product">
-          <img class="product__image" src="./assets/images/earring-2.webp" alt="image of model wearing product">
-          <img class="product__image" src="./assets/images/earrings-3.webp" alt="image of model wearing product sideprofile">
-          <video class="product__video" src="./assets/video/prilgrim.video.earrings.mp4" type="video" controls></video>
+          <img
+            class="product__image"
+            src="./assets/images/earings-1.webp"
+            alt="image of earring product"
+          />
+          <img
+            class="product__image"
+            src="./assets/images/earring-2.webp"
+            alt="image of model wearing product"
+          />
+          <img
+            class="product__image"
+            src="./assets/images/earrings-3.webp"
+            alt="image of model wearing product sideprofile"
+          />
+          <video
+            class="product__video"
+            src="./assets/video/prilgrim.video.earrings.mp4"
+            type="video"
+            controls
+          ></video>
         </figure>
 
         <div class="product__detail-container">
-          <h2 class="product__detail-title">TRUST half hoop earrings gold-plated</h2>
-          <p class="product__detail-description">Trust your creativity and add a touch of autumn beauty to your look with earrings from Pilgrim's TRUST collection. Gold-plated oval half hoops, studded with semi-precious stones in beautiful deep autumn colours. The earrings' organic details and handcrafted feel exude a lux boho vibe, perfect for styling your inner free spirit.</p>
+          <h2 class="product__detail-title">
+            TRUST half hoop earrings gold-plated
+          </h2>
+          <p class="product__detail-description">
+            Trust your creativity and add a touch of autumn beauty to your look
+            with earrings from Pilgrim's TRUST collection. Gold-plated oval half
+            hoops, studded with semi-precious stones in beautiful deep autumn
+            colours. The earrings' organic details and handcrafted feel exude a
+            lux boho vibe, perfect for styling your inner free spirit.
+          </p>
 
           <ul class="product__detail-list">
-            <li class="product__list-description">£ 34.99 <i>Tax included.</i></li>
-            <li class="product__list-description">Gold-plated oval half hoops</li>
-            <li class="product__list-description">Boho-luxe details for creative styling</li>
+            <li class="product__list-description">
+              Price: £ 34.99 <i>Tax included.</i>
+            </li>
+            <li class="product__list-description">
+              Gold-plated oval half hoops
+            </li>
+            <li class="product__list-description">
+              Boho-luxe details for creative styling
+            </li>
             <li class="product__list-description">Measures 55mm in length</li>
-            <li class="product__list-description">Semi-precious stones and earthy vibes</li>
-            <li class="product__list-description">Beautiful natural colour tones</li>
+            <li class="product__list-description">
+              Semi-precious stones and earthy vibes
+            </li>
+            <li class="product__list-description">
+              Beautiful natural colour tones
+            </li>
           </ul>
 
           <form action="" class="product__product-options">
             <p class="Sproduct-metal-text">Metal: <b>gold plated</b></p>
             <div>
               <div class="product__option-gold-container">
-                <label for="gold-plated">gold</label> 
-                <input class="product__option-metal" type="radio" name="metal" id="gold-plated" value="gold" required>
+                <label for="gold-plated">gold</label>
+                <input
+                  class="product__option-metal"
+                  type="radio"
+                  name="metal"
+                  id="gold-plated"
+                  value="gold"
+                  required
+                />
               </div>
-  
+
               <div class="product__option-silver-container">
                 <label for="silver-plated">silver</label>
-                <input class="product__option-metal" type="radio" name="metal" id="silver-plated" value="silver" required>
+                <input
+                  class="product__option-metal"
+                  type="radio"
+                  name="metal"
+                  id="silver-plated"
+                  value="silver"
+                  required
+                />
               </div>
-  
+
               <div class="product__option-quanity-container">
                 <label for="quantity">quantity :</label>
-                <input class="product__option-quanity" type="number" min="1" max="10" value="1" name="quantity" >  
+                <input
+                  class="product__option-quanity"
+                  type="number"
+                  min="1"
+                  max="10"
+                  value="1"
+                  name="quantity"
+                />
               </div>
             </div>
-          </form>  
-          
+          </form>
+
           <div class="product__btn-container">
-            <a class="add-cart-button-link" href="#"><button class="add-cart-button" >Add to cart</button></a>
-            <a class="cart-button-link" href="./order.html"><button class="cart-button">Go to cart</button></a>
+            <a class="add-cart-button-link" href="#"
+              ><button class="add-cart-button">buy</button></a
+            >
+            <a class="cart-button-link" href="./order.html"
+              ><button class="cart-button">Go to cart</button></a
+            >
           </div>
         </div>
       </div>
     </main>
-      
+
     <footer>
-        <div class="footer__container">
-            <h3>CONTACT US</h3>
-            <p>Open hours:</p>
-            <p>Monday - Friday: time:08:00-20:00</p>
-            <p>Saturday - Sunday: time: 09:00-15:00</p>
-            <p>Danish holidays: <a href="#">closed</a></p>
-            <p>Phone: <a href="tel:+4563333333">+45 63 33 33 33</a></p>
-            <p>Email <a href="mailto:webshop@pilgrim.net">webshop@pilgrim.net</a></p>
-        </div>
+      <div class="contantc__container">
+        <h3 class="contantc__title">CONTACT US</h3>
+        <ul class="contantc__list">
+          <li class="contantc__list-item">Open hours:</li>
+          <li class="contantc__list-item">
+            Monday - Friday: time: 08:00-20:00
+          </li>
+          <li class="contantc__list-item">
+            Saturday - Sunday time: 09:00-15:00
+          </li>
+          <li class="contantc__list-item">
+            Danish holidays:
+            <a class="contantc__list-item-link" href="#">closed</a>
+          </li>
+          <li class="contantc__list-item">
+            Phone:
+            <a class="contantc__list-item-link" href="tel:+4563333333"
+              >+45 63 33 33 33</a
+            >
+          </li>
+          <li class="contantc__list-item">
+            Email
+            <a
+              class="contantc__list-item-link"
+              href="mailto:webshop@pilgrim.net"
+              >webshop@pilgrim.net</a
+            >
+          </li>
+          <li class="contantc__list-item"></li>
+        </ul>
+      </div>
 
-        <div class="footer__container">
-            <h3>CUSTOMER SERVICE</h3>
-            <ul>
-                <li><a href="#">customer service</a></li>
-                <li><a href="#">Care guide</a></li>
-                <li><a href="#">Shipping & Delivery</a></li>
-                <li><a href="#">Returns & Exchange</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Refuond policy</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul> 
-        </div>
+      <div class="service__container">
+        <h3 class="service__title">CUSTOMER SERVICE</h3>
+        <ul class="service__list">
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">customer service</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Care guide</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Shipping & Delivery</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Returns & Exchange</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Terms of Service</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Refuond policy</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
 
-        <div  class="footer__container">
-            <h3>COMPANY</h3>
-            <p><a href="#">About Pilgrim</a></p>
-            <p><a href="#">CSR</a></p>
-            <p><a href="#">Jobs</a></p>
-            <p><a href="#">Stores</a></p>
-            <p><a href="#">Piercing in the ear</a></p>
-            <p><a href="#">Press</a></p>
-            <p><a href="#">B2B</a></p>
-        </div >
+      <div class="company__container">
+        <h3 class="company__title">COMPANY</h3>
+        <ul class="company__list">
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">About Pilgrim</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">CSR</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Jobs</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Stores</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Piercing in the ear</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Press</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">B2B</a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="footer__container">
-            <h3>JOIN OUR JOURNEY</h3>
-            <p><a href="#">Club pilgrim</a></p>
-            <p><a href="#">Shop instragram</a></p>
-            <p><a href="#">Facebook</a></p>
-            <p><a href="#">Instagram</a></p>
-            <p><a href="#">TikTok</a></p>
-            <p><a href="#">Spotify</a></p>
-        </div >
-    </footer>  
-</body>
+      <div class="join__container">
+        <h3 class="join__title">JOIN OUR JOURNEY</h3>
+        <ul class="join__list">
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Club pilgrim</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Shop instragram</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Facebook</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Instagram</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">TikTok</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Spotify</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

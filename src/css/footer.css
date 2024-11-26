@@ -1,9 +1,26 @@
 footer {
-  /* margin-top: var(--space-large); */
   padding: var(--space-medium);
   border-top: 2px solid black;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+ul {
+  list-style: none;
+}
+
+.contantc__list-item-link,
+.service__list-item-link,
+.company__list-item-link,
+.join__list-item-link {
+  color: black;
+  text-decoration: none;
+}
+
+.contantc__list-item-link:hover,
+.service__list-item-link:hover,
+.company__list-item-link:hover,
+.join__list-item-link:hover {
+  text-decoration: underline;
 }

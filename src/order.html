@@ -1,256 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/order.css">
-    <link rel="stylesheet" href="./css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/order.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <title>order product</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar">
-          <div class="navbar__icon-options">
-            <div class="navbar__menu-btn-container">
-              <button class="navbar__menu-btn">
-                <img
-                  class="navbar__menu-btn-icon"
-                  src="./assets/icons/menu.svg"
-                  alt="menu icon"
-                />
-              </button>
-            </div>
-  
-            <div class="navbar__searchbar-container">
-              <label for="searchbar" class="navbar__searchbar-label">
-                <button class="navbar__searchbar-btn">
-                  <img
-                    src="./assets/icons/search.svg"
-                    alt="search icon for search input"
-                    class="navbar__searchbar-icon"
-                  /></button
-              ></label>
-  
-              <input
-                type="search"
-                name="seachbar"
-                id="searchbar-input"
-                placeholder="search"
-                class="navbar__searchbar-input"
+      <nav class="navbar">
+        <div class="navbar__icon-options">
+          <div class="navbar__menu-btn-container">
+            <button class="navbar__menu-btn">
+              <img
+                class="navbar__menu-btn-icon"
+                src="./assets/icons/menu.svg"
+                alt="menu icon"
               />
-            </div>
-  
-            <div class="navbar__return-container">
-              <a href="./product.html" class="navbar__return-link"
-                ><img
-                  src="./assets/icons/return.svg"
-                  alt="return icon for return link"
-                  class="navbar__return-icon"
-                />Return</a
-              >
-            </div>
-  
-            <div class="navbar__login-container">
-              <a href="#" class="navbar__login-link"
-                ><img
-                  src="./assets/icons/user.svg"
-                  alt="user icon for login"
-                  class="navbar__login-icon"
-                />Log in</a
-              >
-            </div>
-  
-            <div class="navbar__wish-list-container">
-              <a href="#" class="navbar__wish-list-link"
-                ><img
-                  src="./assets/icons/heart.svg"
-                  alt="heart icon for wishlist link"
-                  class="navbar__wish-list-icon"
-                />wish list</a
-              >
-            </div>
-  
-            <div class="navbar__cart-container">
-              <a href="./order.html" class="navbar__cart-link"
-                ><img
-                  src="./assets/icons/cart.svg"
-                  alt="cart icon for cart link"
-                  class="navbar__cart-icon"
-                />cart</a
-              >
-            </div>
+            </button>
           </div>
-  
+
+          <div class="navbar__searchbar-container">
+            <label for="searchbar" class="navbar__searchbar-label">
+              <button class="navbar__searchbar-btn">
+                <img
+                  src="./assets/icons/search.svg"
+                  alt="search icon for search input"
+                  class="navbar__searchbar-icon"
+                /></button
+            ></label>
+            <input
+              type="search"
+              name="seachbar"
+              id="searchbar-input"
+              placeholder="search"
+              class="navbar__searchbar-input"
+            />
           </div>
-          <div class="navbar__tilte-container">
-            <h1 class="navbar__title">PILGRIM</h1>
+
+          <div class="navbar__return-container">
+            <a href="./product.html" class="navbar__return-link"
+              ><img
+                src="./assets/icons/return.svg"
+                alt="return icon for return link"
+                class="navbar__return-icon"
+              />Return</a
+            >
           </div>
-  
-          <div class="navbar__menu-links-container">
-            <ul class="navbar__list">
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">New</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Jewellery</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Sunglasses</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Sale</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Gift</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">Inspiration</a>
-              </li>
-              <li class="navbar-list-item">
-                <a class="navbar__list-link" href="#">About</a>
-              </li>
-            </ul>
+
+          <div class="navbar__login-container">
+            <a href="#" class="navbar__login-link"
+              ><img
+                src="./assets/icons/user.svg"
+                alt="user icon for login"
+                class="navbar__login-icon"
+              />Log in</a
+            >
           </div>
-        </nav>
+
+          <div class="navbar__wish-list-container">
+            <a href="#" class="navbar__wish-list-link"
+              ><img
+                src="./assets/icons/heart.svg"
+                alt="heart icon for wishlist link"
+                class="navbar__wish-list-icon"
+              />wish list</a
+            >
+          </div>
+
+          <div class="navbar__cart-container">
+            <a href="./order.html" class="navbar__cart-link"
+              ><img
+                src="./assets/icons/cart.svg"
+                alt="cart icon for cart link"
+                class="navbar__cart-icon"
+              />cart</a
+            >
+          </div>
+        </div>
+
+        <div class="navbar__tilte-container">
+          <h1 class="navbar__title">PILGRIM</h1>
+        </div>
+
+        <div class="navbar__menu-links-container">
+          <ul class="navbar__list">
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">New</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Jewellery</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Sunglasses</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Sale</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Gift</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">Inspiration</a>
+            </li>
+            <li class="navbar-list-item">
+              <a class="navbar__list-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="card">
-            <h2 class="card__title">Your cart</h2>
-        </section>
-        <form>
-            <fieldset class="card__checkout-product">
-                <legend>Choose your option to product item</legend>
+      <div class="cart__title-container">
+        <h2 class="cart__title">Your cart</h2>
+      </div>
+      <form>
+        <fieldset class="card__checkout-product">
+          <legend>Choose your option to product item</legend>
 
-                <label for="quantity">Enter your preffered quantity:*</label>
-                <input class="card__textbox" type="number" id="quantity" name="quantity" min="1" max="10" required>
+          <label for="quantity">Enter your preffered quantity:*</label>
+          <input
+            class="card__textbox"
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="1"
+            max="10"
+            required
+          />
 
-                <label for="metal">Choose your preferred metal type:*</label>
-                <div>
-                    <label for="metal">Silver plated</label>
-                    <input class="card__radio-s-btn" type="radio" name="metal" id="gold" required value="gold">
-                </div>
-                    
-                <div>
-                    <label class="card__gold" for="metal">Gold plated</label>
-                    <input class="card__radio-g-btn" type="radio" name="metal" id="silver" required value="silver">
-                </div>
-            </fieldset>
+          <label for="metal">Choose your preferred metal type:*</label>
+          <div>
+            <label for="metal">Gold plated</label>
+            <input
+              class="card__radio-gold-btn"
+              type="radio"
+              name="metal"
+              id="gold"
+              required
+              value="gold"
+            />
+          </div>
 
-            <fieldset class="card__checkout-contact">
-                <legend>Contact</legend>
+          <div>
+            <label class="card__gold" for="metal">Silver plated</label>
+            <input
+              class="card__radio-silver-btn"
+              type="radio"
+              name="metal"
+              id="silver"
+              required
+              value="silver"
+            />
+          </div>
+        </fieldset>
 
-                <label for="email">Enter your email:*</label>
-                <input class="card__textbox" type="email" id="email" name="email" placeholder="Email" required>
+        <fieldset class="card__checkout-contact">
+          <legend>Contact</legend>
 
-                <label for="phone">Enter your phone number:*</label>
-                <input class="card__textbox" type="tel" name="phone" id="phone" placeholder="Phone number" maxlength="10" minlength="8" required>
+          <label for="email">Enter your email:*</label>
+          <input
+            class="card__textbox"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
 
-                <label for="first-name">Enter Your first name:*</label>
-                <input class="card__textbox" type="text" id="first-name" name="first-name" placeholder="First name" required maxlength="50">
+          <label for="phone">Enter your phone number:*</label>
+          <input
+            class="card__textbox"
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Phone number"
+            maxlength="10"
+            minlength="8"
+            required
+          />
 
-                <label for="lastname">Enter your last name:*</label>
-                <input class="card__textbox" type="text" id="last-name" name="last-name" placeholder="Last name" required maxlength="50">
+          <label for="first-name">Enter Your first name:*</label>
+          <input
+            class="card__textbox"
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="First name"
+            required
+            maxlength="50"
+          />
 
-                <label for="date-of-birth">Enter your birtday:*</label>
-                <input class="card__textbox" type="date" name="birthday" id="birthday" required>
-            </fieldset>
+          <label for="lastname">Enter your last name:*</label>
+          <input
+            class="card__textbox"
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Last name"
+            required
+            maxlength="50"
+          />
 
-            <fieldset class="card__checkout-address">
-                <legend>Shipping address</legend>
+          <label for="date-of-birth">Enter your birtday:*</label>
+          <input
+            class="card__textbox"
+            type="date"
+            name="birthday"
+            id="birthday"
+            required
+          />
+        </fieldset>
 
-                <label for="address">Enter your address:*</label>
-                <input class="card__textbox" type="text" id="address" name="address" placeholder="Address" required>
+        <fieldset class="card__checkout-address">
+          <legend>Shipping address</legend>
 
-                <label for="apartment">Enter your apartment (optional):</label>
-                <input class="card__textbox" type="text" id="apartment" name="apartment" placeholder="Apartment, suite, ect (optional)" maxlength="50">
+          <label for="address">Enter your address:*</label>
+          <input
+            class="card__textbox"
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Address"
+            required
+          />
 
-                <label for="city">Enter your city:*</label>
-                <input class="card__textbox" type="text" id="city" name="city" placeholder="example: oslo" required>
+          <label for="apartment">Enter your apartment (optional):</label>
+          <input
+            class="card__textbox"
+            type="text"
+            id="apartment"
+            name="apartment"
+            placeholder="Apartment, suite, ect (optional)"
+            maxlength="50"
+          />
 
-                <label for="post-code">Enter your post code:*</label>
-                <input class="card__textbox" type="text" id="post-code" name="post-code" required placeholder="example: 1167" maxlength="6" minlength="4" >
+          <label for="city">Enter your city:*</label>
+          <input
+            class="card__textbox"
+            type="text"
+            id="city"
+            name="city"
+            placeholder="example: oslo"
+            required
+          />
 
-                <div class="card__address-checkbox">
-                    <label for="shipping-address">Shipping address is the same as billing address:</label>
-                    <input type="checkbox" name="shipping-address" id="shipping-address">
-                </div>
+          <label for="post-code">Enter your post code:*</label>
+          <input
+            class="card__textbox"
+            type="text"
+            id="post-code"
+            name="post-code"
+            required
+            placeholder="example: 1167"
+            maxlength="6"
+            minlength="4"
+          />
 
-                <label for="different-billing-address">Add if billing address is different:</label>
-                <textarea name="different-billing-address" id="different-billing-address" cols="40" rows="10" maxlength="200"></textarea>
-            </fieldset>
+          <div class="card__address-checkbox">
+            <label for="shipping-address"
+              >Shipping address is the same as billing address:</label
+            >
+            <input
+              type="checkbox"
+              name="shipping-address"
+              id="shipping-address"
+            />
+          </div>
 
-            <fieldset class="card__checkout-payment">
-                <legend>Payment</legend>
+          <label for="different-billing-address"
+            >Add if billing address is different:</label
+          >
+          <textarea
+            name="different-billing-address"
+            id="different-billing-address"
+            cols="40"
+            rows="10"
+            maxlength="200"
+          ></textarea>
+        </fieldset>
 
-                <label for="payment">Choose your method of payment:*</label>
-                <select name="payment" id="payment" required>
-                    <option value="visa">Visa</option>
-                    <option value="master-card">Master card</option>
-                    <option value="vipps">Vipps</option>
-                    <option value="paypal">Paypal</option>
-                </select>
-            </fieldset>
+        <fieldset class="card__checkout-payment">
+          <legend>Payment</legend>
 
-            <section class="card__checkout-submit">
-                <input type="checkbox" name="terms" id="terms" required>
-                <label class="card__terms-condition" for="terms">I agree to the<a  href="#">Terms and condition</a>*</label>
+          <label for="payment">Choose your method of payment:*</label>
+          <select name="payment" id="payment" required>
+            <option value="visa">Visa</option>
+            <option value="master-card">Master card</option>
+            <option value="vipps">Vipps</option>
+            <option value="paypal">Paypal</option>
+          </select>
+        </fieldset>
 
-                <button type="submit" value="submit">Pay now</button>
-            </section>
-        </form>
+        <div class="card__checkout-submit">
+          <input type="checkbox" name="terms" id="terms" required />
+          <label class="card__terms" for="terms"
+            >I agree to the <a href="#">Terms and condition</a>*</label
+          >
 
+          <button type="submit" value="submit">Pay now</button>
+        </div>
+      </form>
     </main>
 
     <footer>
-        <div class="footer__container">
-            <h3>CONTACT US</h3>
-            <p>Open hours:</p>
-            <p>Monday - Friday: time: 08:00-20:00</p>
-            <p>Saturday - Sunday time: 09:00-15:00</p>
-           <p>Danish holidays: <a href="#">closed</a></p>
-           <p>Phone: <a href="tel:+4563333333">+45 63 33 33 33</a></p>
-           <p>Email <a href="mailto:webshop@pilgrim.net">webshop@pilgrim.net</a></p>
-        </div>
+      <div class="contantc__container">
+        <h3 class="contantc__title">CONTACT US</h3>
+        <ul class="contantc__list">
+          <li class="contantc__list-item">Open hours:</li>
+          <li class="contantc__list-item">
+            Monday - Friday: time: 08:00-20:00
+          </li>
+          <li class="contantc__list-item">
+            Saturday - Sunday time: 09:00-15:00
+          </li>
+          <li class="contantc__list-item">
+            Danish holidays:
+            <a class="contantc__list-item-link" href="#">closed</a>
+          </li>
+          <li class="contantc__list-item">
+            Phone:
+            <a class="contantc__list-item-link" href="tel:+4563333333"
+              >+45 63 33 33 33</a
+            >
+          </li>
+          <li class="contantc__list-item">
+            Email
+            <a
+              class="contantc__list-item-link"
+              href="mailto:webshop@pilgrim.net"
+              >webshop@pilgrim.net</a
+            >
+          </li>
+          <li class="contantc__list-item"></li>
+        </ul>
+      </div>
 
-        <div class="footer__container">
-            <h3>CUSTOMER SERVICE</h3>
-            <ul>
-                <li><a href="#">customer service</a></li>
-                <li><a href="#">Care guide</a></li>
-                <li><a href="#">Shipping & Delivery</a></li>
-                <li><a href="#">Returns & Exchange</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Refuond policy</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul> 
-        </div>
+      <div class="service__container">
+        <h3 class="service__title">CUSTOMER SERVICE</h3>
+        <ul class="service__list">
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">customer service</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Care guide</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Shipping & Delivery</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Returns & Exchange</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Terms of Service</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">Refuond policy</a>
+          </li>
+          <li class="service__list-item">
+            <a class="service__list-item-link" href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
 
-        <div  class="footer__container">
-            <h3>COMPANY</h3>
-            <p><a href="#">About Pilgrim</a></p>
-            <p><a href="#">CSR</a></p>
-            <p><a href="#">Jobs</a></p>
-            <p><a href="#">Stores</a></p>
-            <p><a href="#">Piercing in the ear</a></p>
-            <p><a href="#">Press</a></p>
-            <p><a href="#">B2B</a></p>
-        </div >
+      <div class="company__container">
+        <h3 class="company__title">COMPANY</h3>
+        <ul class="company__list">
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">About Pilgrim</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">CSR</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Jobs</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Stores</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Piercing in the ear</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">Press</a>
+          </li>
+          <li class="company__list-item">
+            <a class="company__list-item-link" href="#">B2B</a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="footer__container">
-            <h3>JOIN OUR JOURNEY</h3>
-            <p><a href="#">Club pilgrim</a></p>
-            <p><a href="#">Shop instragram</a></p>
-            <p><a href="#">Facebook</a></p>
-            <p><a href="#">Instagram</a></p>
-            <p><a href="#">TikTok</a></p>
-            <p><a href="#">Spotify</a></p>
-        </div >
-    </footer>  
-    
-</body>
+      <div class="join__container">
+        <h3 class="join__title">JOIN OUR JOURNEY</h3>
+        <ul class="join__list">
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Club pilgrim</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Shop instragram</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Facebook</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Instagram</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">TikTok</a>
+          </li>
+          <li class="join__list-item">
+            <a class="join__list-item-link" href="#">Spotify</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

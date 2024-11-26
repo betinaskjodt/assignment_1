@@ -14,16 +14,21 @@ body {
   text-align: center;
 }
 main {
+  width: 100%;
+  height: 70vh;
+}
+
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: var(--space-large);
 }
 
 .home__title {
   font-family: var(--primary-font-family);
   font-size: 14rem;
-  padding-top: var(--space-large);
 }
 
 .home__link-to-product {
