@@ -31,6 +31,12 @@ label {
   padding-left: var(--space-medium);
 }
 
+::placeholder,
+input[type="date"],
+#payment {
+  padding-left: var(--space-x-small);
+}
+
 .card__textbox {
   width: 40%;
   height: var(--space-large);
