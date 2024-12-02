@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+.seachbar__input {
+  background-color: transparent;
+  border-radius: 50px;
+  text-align: center;
+}
+main {
+  width: 100%;
+  height: 90vh;
+}
+
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-large);
+}
+
+.home__title {
+  font-family: var(--primary-font-family);
+  font-size: 12rem;
+}
+
+.home__product-link-button {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: var(--primary-hover-color);
+  color: white;
+  font-size: var(--font-size-medium);
+}
+
+.home__product-link-button:hover {
+  background-color: var(--secondary-hover-color);
+}

@@ -22,6 +22,7 @@
   --third-font-family: Bitter-MediumItalic;
   --fourth-font-family: Bitter-Bold;
 
+  --space-x-small: 0.5rem;
   --space-small: 0.95rem;
   --space-medium: 1rem;
   --space-large: 2rem;
@@ -29,7 +30,7 @@
   --space-2x-large: 9rem;
 
   --font-size-xsmall: 0.5rem;
-  --font-size-small: 1.3rem;
+  --font-size-small: 1.1rem;
   --font-size-medium: 1.5rem;
   --font-size-large: 2rem;
   --font-size-xlarge: 2.5rem;
