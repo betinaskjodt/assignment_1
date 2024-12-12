@@ -45,19 +45,9 @@ This project i license of the MIT license - see the LICENSE files for deatils.
 
 If you have any questions, suggestions or other feedback, feel free to contact me at [betina_horthe@hotmail.com].
 
-! ! ! husk å redigere ! ! !
-rediger mellomrom i order.css:
+## Netlify
 
-- trenger mer rom mellom fieldset
-
-redigere frontside:
-
-- mangler litt mer styling
-  - mulig gjøre om test som bildetest ved å transparerer text og hide bilde ????
-
-sjekk om du er fornøyd med product side ?
-
-- mangler du noe mer redigering før den er ferdig ??
+https://67505f77e47af40bb5ec4419--idyllic-puppy-744668.netlify.app/
 
 ### Sources
 
